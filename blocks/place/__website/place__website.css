@@ -1,3 +1,11 @@
 .place__website {
-  
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.place__website :first-child {
+  margin-bottom: 12px;
 }

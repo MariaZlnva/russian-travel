@@ -1,11 +1,7 @@
 .place__title {
-margin: 0;
-  width: 460px;
-height: 152px;
-font-family: 'Inter';
-font-style: normal;
+margin: 0 0 48px 0;
 font-weight: 900;
 font-size: 72px;
-line-height: 76px;
+line-height: 1.05;
 
 }
