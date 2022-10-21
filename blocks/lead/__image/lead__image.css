@@ -2,3 +2,9 @@
   max-width: 984px;
   width: 100%;
 }
+
+@media screen and (max-width: 540px) {
+  .lead__image {
+    max-width: 320px;
+  }
+}
