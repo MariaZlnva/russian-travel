@@ -10,6 +10,6 @@
 В HTML прописан всего один файл со всеми нужными стилями.
 Шрифты подключены локально.
 
-https://github.com/MariaZlnva
+https://mariazlnva.github.io/russian-travel/
 
 
