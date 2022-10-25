@@ -1,0 +1,12 @@
+.cover {
+  width: 100%;
+  padding: 0 48px;
+  box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 1150px) {
+    .cover {
+      padding: 0;
+    }
+    
+  }

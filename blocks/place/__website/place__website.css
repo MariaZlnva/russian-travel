@@ -1,5 +1,4 @@
 .place__website {
-  margin-bottom: 48px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -8,4 +7,10 @@
 
 .place__website :first-child {
   margin-bottom: 12px;
+}
+
+@media screen and (max-width: 540px) {
+  .place__website {
+  margin: 0 16px;
+}
 }
