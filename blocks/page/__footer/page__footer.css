@@ -1,14 +1,15 @@
 .page__footer {
-  margin: 0;
+  margin: 0 auto;
   padding: 0 48px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 896px) {
   .page__footer {
-  padding: 0 24px;
+    padding: 0 24px;
+  }
 }
-}
-  
+
 @media screen and (max-width: 724px) {
   .page__footer {
     padding: 0 16px;

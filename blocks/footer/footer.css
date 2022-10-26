@@ -1,16 +1,12 @@
 .footer {
- display: flex;
- flex-direction: row;
- flex-wrap: nowrap;
- justify-content: space-between;
-  
-}
-  
-@media screen and (max-width: 724px) {
-  .footer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
+@media screen and (max-width: 714px) {
+  .footer {
+    flex-direction: column;
+  }
+}

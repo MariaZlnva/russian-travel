@@ -1,16 +1,13 @@
 .place__website {
+  margin: 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-end;
 }
 
-.place__website :first-child {
-  margin-bottom: 12px;
-}
-
 @media screen and (max-width: 540px) {
   .place__website {
-  margin: 0 16px;
-}
+    margin: 0 16px;
+  }
 }

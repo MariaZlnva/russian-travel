@@ -1,17 +1,25 @@
 .page__content {
-  margin: 56px 0 92px 0;
- 
+  margin-top: 56px;
+  margin-right: auto;
+  margin-bottom: 92px;
+  margin-left: auto;
 }
 
-@media screen and (max-width:1152px) {
- .page__content {
-  margin: 48px 0 88px 0;
-  
-}
-}
-
-@media screen and (max-width:540px) {
+@media screen and (max-width: 1152px) {
   .page__content {
-   margin-bottom: 66px;
- }
- }
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .page__content {
+    margin-top: 48px;
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .page__content {
+    margin-bottom: 64px;
+  }
+}

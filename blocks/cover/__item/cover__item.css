@@ -12,11 +12,11 @@
   background-position: center;
   position: relative;
   z-index: 1;
-  }
+}
 
 .cover__item::before {
-  content: '';
-  background: #2A2C2F;
+  content: "";
+  background: #2a2c2f;
   opacity: 0.3;
   position: absolute;
   top: 0;
@@ -28,24 +28,23 @@
 }
 
 .cover__item:hover::before {
-   opacity: 0.8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1150px) {
   .cover__item {
     min-height: 640px;
   }
-  
 }
 
 @media screen and (max-width: 896px) {
   .cover__item {
     min-height: 480px;
   }
-  }
+}
 
-  @media screen and (max-width: 540px) {
-    .cover__item {
-      min-height: 200px;
-    }
-    }
+@media screen and (max-width: 540px) {
+  .cover__item {
+    min-height: 200px;
+  }
+}

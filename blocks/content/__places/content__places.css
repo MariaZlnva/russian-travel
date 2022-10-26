@@ -1,5 +1,7 @@
 .content__places {
-  margin: 0 148px;
+  margin: 0 auto;
+}
+  /* margin: 0 148px;
   
 }
 
@@ -19,6 +21,6 @@
   .content__places {
     margin: 0;
   }
-  }
+  } */
 
   

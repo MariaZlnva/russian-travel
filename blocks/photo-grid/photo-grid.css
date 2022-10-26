@@ -5,16 +5,14 @@
   justify-content: stretch;
 }
 
-@media screen and (max-width: 1152px){
+@media screen and (max-width: 1152px) {
   .photo-grid {
     gap: 14px;
   }
-  
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 540px) {
   .photo-grid {
     gap: 12px;
   }
-  
 }

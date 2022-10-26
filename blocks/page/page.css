@@ -9,4 +9,8 @@
   padding: 28px 0 24px;
 }
 
-
+@media screen and (max-width: 540px) {
+  .page {
+    padding-top: 16px;
+  }
+}

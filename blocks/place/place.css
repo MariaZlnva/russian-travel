@@ -2,23 +2,25 @@
   width: 100%;
   display: grid;
   grid-auto-flow: row;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 460px 1fr;
   column-gap: 40px;
   row-gap: 48px;
 }
 @media screen and (max-width: 1150px) {
   .place {
+    grid-template-columns: 440px 1fr;
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 896px) {
   .place {
+    grid-template-columns: 340px 1fr;
     column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 730px) {
   .place {
     grid-template-columns: 1fr;
     row-gap: 32px;
